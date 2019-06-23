@@ -23,7 +23,7 @@
 </tr>
 <tr>
 	<td>비밀번호</td>
-	<td><input type="text" name="password" id="password" required>
+	<td><input type="text" name="pwd" id="pwd" required>
 	<div id="pwdDiv"></div>
 	</td>
 </tr>
