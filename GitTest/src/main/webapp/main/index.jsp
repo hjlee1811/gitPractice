@@ -5,23 +5,30 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+a{
+	text-decoration : none;
+	cursor : pointer;
+}	
+
+
+</style>
 </head>
 <body>
 <table border="1" width="100%">
 
-<tr >
-	<td  valign="top" align="center" width="250" height="600">
+<tr>
+	<td valign="top" width="250" height="600">
 		<ul>
-			<li> <a href="../member/loginForm.do">로그인</a> </li>
-			<li> <a href="../member/JoinForm.do">회원가입</a> </li>
+			<li>로그인</li>
+			<li>회원가입</li>
 		</ul>
 	</td>
 	
-	<td  height="500">	
-		<img src="../img/gom2.gif">
+	<td height="500">	
+		<img src="../img/dream.jpg">
 	</td>
 </tr>
-
 </table>
 
 </body>

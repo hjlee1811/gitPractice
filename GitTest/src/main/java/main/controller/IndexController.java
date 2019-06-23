@@ -7,11 +7,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class IndexController {
-	@RequestMapping(value="/index", method=RequestMethod.GET)
-	public ModelAndView index() {
-		ModelAndView mav = new ModelAndView();
-		mav.addObject("display", "/main/index.jsp");
-		mav.setViewName("/main/index");
-		return mav;
+	@RequestMapping(value="/main/index.do", method=RequestMethod.GET)
+	public String index() {
+		return "/main/index";
 	}
 }
