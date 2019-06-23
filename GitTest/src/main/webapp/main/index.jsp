@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <style>
 a{
+
 	text-decoration : none;
 	cursor : pointer;
 }	
@@ -15,18 +16,18 @@ a{
 </style>
 </head>
 <body>
-<table border="1" width="100%">
+<table border="1"cellspacing="0">
 
 <tr>
-	<td valign="top" width="250" height="600">
+	<td style="vertical-align:middle;">
 		<ul>
-			<li>로그인</li>
-			<li>회원가입</li>
+			<li><a href="../member/loginForm.do">로그인</a></li>
+			<li><a href="../member/joinForm.do">회원가입</a></li>
 		</ul>
 	</td>
 	
-	<td height="500">	
-		<img src="../img/dream.jpg">
+	<td >	
+		<img width="300px" height="200px" src="../img/dream.jpg">
 	</td>
 </tr>
 </table>
